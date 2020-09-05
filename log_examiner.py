@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+
+#MacOS update: /var/log/syslog/ is specifically for Linux, change the path to /Library/Logs/ if your machine is running Macintosh
+
+
 import re, operator, os, csv
 
 errors = {}
